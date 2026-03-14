@@ -1,0 +1,34 @@
+\input{Configuration/preamble.sty}
+
+\begin{document}
+
+\input{Contents/Sub/cover-page}
+\newpage
+
+\input{Contents/Sub/table-of-contents}
+\newpage
+\listoffigures
+\addcontentsline{toc}{section}{\listfigurename}
+\listoftables
+\addcontentsline{toc}{section}{\listtablename}
+
+
+\newpage
+
+\input{Contents/Sub/member-contribution}
+\newpage
+
+% \input{Contents/Sub/table-of-contents}
+
+
+%%%%%%%%%%%%%%%%%% MAIN CONTENT %%%%%%%%%%%%%%%%%%
+
+\input{Contents/Main/task1}
+\newpage
+
+%%%%%%%%%%%%%%%%%%% END MAIN CONTENT %%%%%%%%%%%%%%%%%%
+
+\newpage
+
+% \input{Contents/Sub/references}
+\end{document}
